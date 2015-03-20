@@ -43,7 +43,7 @@ To get my attention, click on me in the Makers' Slackbot and say 'mbot' followed
 
 Makerbot has a standarised way of incorporating new modules that make it easy to write new modules for Makerbot. 
 
-To create your new module, you must provide the public interface with a single #getResponse method. This method should take two arguments:   
+To create your new module, you must provide a public interface with a single #getResponse method. This method should take two arguments:   
 
 1 -  Extra arguments you wish to use with Makerbot 
 
