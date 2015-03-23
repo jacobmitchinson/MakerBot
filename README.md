@@ -23,9 +23,9 @@ To get my attention, click on me in the Makers' Slackbot and say 'mbot' followed
 
 MakerBot requires three API keys:
 
-1) A Slack token for a bot. You can create a new bot here: https://makerstest.slack.com/services/new/bot. Then either set this as an environment variable calling it SLACK_TOKEN or input the key into app/makerbot.js on line 2.
-2) A GitHub api token from a Makers account. You can set this as an environment variable as MAKERBOT_GITHUB_TOKEN or input the key into app/makersGithub.js on line 3. 
-3) A Wolfram Alpha token: http://products.wolframalpha.com/api. You can set this as an environment variable calling it WOLFRAM_TOKEN or edit line 1 of app/wolframUtility.js and inputting your API key. 
+- A Slack token for a bot. You can create a new bot here: https://makerstest.slack.com/services/new/bot. Then either set this as an environment variable calling it SLACK_TOKEN or input the key into app/makerbot.js on line 2.
+- A GitHub api token from a Makers account. You can set this as an environment variable as MAKERBOT_GITHUB_TOKEN or input the key into app/makersGithub.js on line 3. 
+- A Wolfram Alpha token: http://products.wolframalpha.com/api. You can set this as an environment variable calling it WOLFRAM_TOKEN or edit line 1 of app/wolframUtility.js and inputting your API key. 
 
 ## TO RUN
 
