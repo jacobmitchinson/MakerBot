@@ -1,4 +1,4 @@
-var wolfram = require('wolfram-node').init('UUKEGR-LKX2822GK6');
+var wolfram = require('wolfram-node').init(process.env.WOLFRAM_TOKEN);
 
 var WolframAPI = function() {
 

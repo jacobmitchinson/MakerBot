@@ -1,6 +1,6 @@
 var Github = require('github-api');
 var github = new Github({
-  token: process.env.MAKERBOT_TOKEN,
+  token: process.env.MAKERBOT_GITHUB_TOKEN,
   auth: "oauth"
 });
 
